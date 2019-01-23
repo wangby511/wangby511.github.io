@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "ABOUT ME"
 description: ""
 header-img: "img/post-bg-rwd.jpg"
 ---
@@ -12,43 +12,33 @@ header-img: "img/post-bg-rwd.jpg"
 </select> -->
 
 <!-- Chinese Version -->
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+<div class="zh post-container">
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<!--     <blockquote><p>冰冻三尺 非一日之寒<br>
+    积土成山 非斯须之作</p></blockquote> -->
+    <strong>王博远</strong><br /><br />
+
+    <strong>Undergraduate </strong><p>Sep 2013 - July 2017</p>
+
+    <p>Shanghai Jiao Tong University. (Shanghai, China) Information Engineering, ECE </p>
+
+    <strong>Master</strong><p>Aug 2017 - Dec 2019 (Pursuing now)<br />
+
+    <p>University of Southern California. (Los Angeles, U.S.) Computer Science, CS</p>
+
+    <strong>Internship</strong>
+
+    <p>June 2018 - August 2018. SDE Internship in NetEASE Inc. (Hangzhou, China)</p>
+
+    <br />
+    <strong>Main Focus:</strong>
+
+    <p>Machine Learning, Deep Learning, Data Analysis.</p>
+
+<!--     <ul>
+        <li><a href="https://github.com/wangby511">GitHub</a></li>
+    </ul> -->
+</div>
 
 <!-- English Version -->
 <!-- <div class="en post-container">
