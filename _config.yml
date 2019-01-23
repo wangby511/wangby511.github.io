@@ -1,8 +1,8 @@
 # Site settings
-title: BY Blog
+title: Blog
 SEOTitle: 王博远的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
-email: wangby511@gmail.com
+email: wangby511 AT gmail DOT com
 description: "Every failure is leading towards success."
 keyword: ""
 url: "http://wangby511.github.io"          # your host, for absolute URL
@@ -64,9 +64,9 @@ gitalk:
   enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  repo: wangby511.github.io    #仓库名称
+  owner: wangby511    #github用户名
+  admin: wangby511
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
