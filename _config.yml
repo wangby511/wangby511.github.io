@@ -11,7 +11,7 @@ github_repo: "https://github.com/wangby511/wangby511.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "(image of )wechat : wby19950810 "
+sidebar-about-description: "(image of )wechat : wby19950810  "
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
