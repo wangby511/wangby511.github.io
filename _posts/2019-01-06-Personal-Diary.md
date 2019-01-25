@@ -14,12 +14,21 @@ tags:
 ## 前言
 
 github : Deleting your credentials via the command line
+
 ```javascript
 $git credential-osxkeychain erase
 host=github.com
 protocol=https
 [Press Return]
 ```
+允许mac电脑打开任何来源的应用程序／显示文件已损坏的解决办法：
+```javascript
+sudo spctl --master-disable
+```
+再到偏好设置里／安全性与隐私->勾选“任何来源”
+
+
+
 
 
 ## 正文
