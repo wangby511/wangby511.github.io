@@ -4,7 +4,7 @@ title:      蚌埠南站
 subtitle:   System Design : MapReduce
 date:       2019-01-27
 author:     wangby511
-header-img: img/ppost-bg-xbly2.jpeg
+header-img: img/post-bg-xbly2.jpeg
 catalog: true
 tags:
     - PERSONAL

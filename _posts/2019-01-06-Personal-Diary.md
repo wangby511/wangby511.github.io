@@ -28,8 +28,3 @@ sudo spctl --master-disable
 再到偏好设置里／安全性与隐私->勾选“任何来源”
 
 
-
-
-
-## 正文
-
