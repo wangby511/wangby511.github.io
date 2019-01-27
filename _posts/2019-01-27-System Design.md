@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      System Design
-subtitle:   MapReduce
+title:      蚌埠南站
+subtitle:   System Design : MapReduce
 date:       2019-01-27
 author:     wangby511
-header-img: img/post-bg-coffee.jpeg
+header-img: img/ppost-bg-xbly2.jpeg
 catalog: true
 tags:
     - PERSONAL
