@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      蚌埠南站
-subtitle:   System Design : MapReduce
+subtitle:   System Design
 date:       2019-01-27
 author:     wangby511
 header-img: img/post-bg-xbly2.jpg
