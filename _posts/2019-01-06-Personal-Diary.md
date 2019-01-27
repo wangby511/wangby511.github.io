@@ -11,7 +11,7 @@ tags:
 ---
 
 
-## 前言
+## 正文
 
 github : Deleting your credentials via the command line
 
