@@ -124,6 +124,13 @@ ChunkServer02, free space = 50%, free bandwidth = 21%
 
 当副本过度繁忙，复制到更多ChunkServer，基于ChunkServer的硬盘和带宽利用率来选择.
 
+#### 读操作
+![](https://raw.githubusercontent.com/wangby511/wangby511.github.io/master/images/2019-01-28.12.08.56.png)
+
+#### 写操作
+![](https://raw.githubusercontent.com/wangby511/wangby511.github.io/master/images/2019-01-28.12.09.09.png)
+
+
 
 
 
