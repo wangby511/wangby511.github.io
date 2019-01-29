@@ -132,8 +132,28 @@ Reference: https://www.bittiger.io/classpage/QPQAy2DFkqLwHBS4K
 
 
 
+## MongoDB
+```
+//example
+URL = "http://..."
+PageSource = "..."
+ID = "5683"
+Name = "WECHAT"
+Version = "5.8.0"
+```
+How to read faster with fragments? Add next/prev pointer to next or previous document to increase look up speed.
 
+How to reduce fragments? Add padding to every document's tail.
 
+How to save to disk? Disk has existing files. Write to empty space. So how to reduce fragments in disk?
+
+Pre-allocate a large space. Size:? double increasing... 16MB, 32MB, ... , 1G, 2G, 2G, 2G, ...
+
+How to find id [5000,7000]? Index with binary tree . O(logN) Every node with a pointer to the disk.
+
+Summary: attributes can be updated freely. use BTree (a better version of BST) to build index.
+
+Reference: https://www.youtube.com/watch?v=4SxHNmk5JHI
 
 
 
