@@ -68,9 +68,9 @@ Reduce(string key,list valuelist){
 
 （上）应用1，2，3
 
-     算法（MapReduce)
+算法（MapReduce)
 
-     数据模型(Big Table)
+数据模型(Big Table)
 
 （下）文件系统（GFS)
 
@@ -78,7 +78,7 @@ Reduce(string key,list valuelist){
 
 Master
 
-ChunkServer1,2,3...
+ChunkServer No.1,2,3...
 
 Master 包含Metadata(Info and Index)
 
@@ -88,7 +88,7 @@ ChunkServer 包含Index(diskOffset)和具体Chunks
 
 #### 减少ChunkServer挂掉带来的损失
 
-保存3个副本
+保存3个副本: 每个chunk都存储在三个不同的ChunkServer上
 
 Chunk03 -> CS3,CS4,CS5
 
@@ -102,9 +102,7 @@ Chunk26 -> CS5,CS7,CS6
 
 master启动修复进程 workinglist，寻找所有含有CS4的chunk（此时应该少于三个副本），按照存活副本数量从小到大排序修复（按应急）。
 
-若出现热点，加入热点平衡进程.
-
-记录每个chunk访问信息和ChunkServer信息
+若出现热点，加入热点平衡进程，记录每个chunk访问信息和ChunkServer信息
 
 Chunk stats
 
@@ -129,6 +127,8 @@ ChunkServer02, free space = 50%, free bandwidth = 21%
 
 #### 写操作
 ![](https://raw.githubusercontent.com/wangby511/wangby511.github.io/master/images/2019-01-28.12.09.09.png)
+
+Reference: https://www.bittiger.io/classpage/QPQAy2DFkqLwHBS4K
 
 
 
